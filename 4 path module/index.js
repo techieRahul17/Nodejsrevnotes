@@ -1,0 +1,10 @@
+const path=require("path");
+console.log("Directory name:",path.dirname(__filename));
+console.log("Filename: ",path.basename(__filename));
+console.log("Extname: ",path.extname(__filename));
+const joinpath=path.join("/user","documents","node");
+console.log(joinpath);
+const resolvepath=path.resolve("user","documents",joinpath);
+console.log(resolvepath);
+const normalizePath=path.normalize(path.normalize(joinpath));
+console.log(normalizePath);

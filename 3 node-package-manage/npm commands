@@ -1,0 +1,4 @@
+npm init= to initialize the npm package and start with the node js proj
+npm install dep1 dep2...... = to install valid dependencies
+npm run {yourscriptname} from package.json
+npm run dev where dev is ur package name
